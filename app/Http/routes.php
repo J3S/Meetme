@@ -27,6 +27,8 @@ Route::get('dashboard', 'dashboardController@index');
 
 Route::get('new_event', 'newEventController@index');
 
+Route::get('new_group', 'groupController@index');
+
 Route::post('createEvent', 'newEventController@store');
 
 
