@@ -323,10 +323,16 @@
                 <span>Dashboard</span>
               </a>
             </li>
-            <li class="active treeview">
+            <li class="treeview">
               <a href="new_event">
                 <i class="fa fa-calendar"></i>
                 <span>New Event</span>
+              </a>
+            </li>
+            <li class="active treeview">
+              <a href="new_group">
+                <i class="fa fa-group"></i>
+                <span>New Group</span>
               </a>
             </li>
             </li>
@@ -358,7 +364,7 @@
                   <h3 class="box-title">Create Group</h3>
                 </div>
                 <div class="box-body">
-                  <form action="createEvent" method="post">
+                  <form action="createGroup" method="post">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <!-- Event Title -->
                     <div class="form-group">
@@ -367,7 +373,7 @@
                         <div class="input-group-addon">
                           <i class="fa fa-tasks"></i>
                         </div>
-                        <input name="event_title" type="text" class="form-control" placeholder="Your group's name">
+                        <input name="nombre_grupo" type="text" class="form-control" placeholder="Your group's name">
                       </div>
                     </div>
                     <!-- Event Objective -->
@@ -387,7 +393,7 @@
                         <div class="input-group-addon">
                           <i class="fa fa-align-justify"></i>
                         </div>
-                        <textarea name="event_description" class="form-control" rows="3" placeholder="Short descrption of your group ..."></textarea>
+                        <textarea name="grupo_descripcion" class="form-control" rows="3" placeholder="Short descrption of your group ..."></textarea>
                       </div>
                     </div>
 
@@ -417,7 +423,7 @@
                     <div class="form-group">
                       <div class="input-group">
                         <div class="input-group-btn">
-                          <button type="submit" class="btn btn-primary">Create</button>
+                          <button type="submit" class="btn btn-primary">Create Group</button>
                         </div><!-- /btn-group -->
                       </div>
                     </div>

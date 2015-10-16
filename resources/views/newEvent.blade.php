@@ -329,6 +329,12 @@
                 <span>New Event</span>
               </a>
             </li>
+            <li class="treeview">
+              <a href="new_group">
+                <i class="fa fa-group"></i>
+                <span>New Group</span>
+              </a>
+            </li>
             </li>
           </ul>
         </section>

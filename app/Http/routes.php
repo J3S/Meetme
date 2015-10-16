@@ -31,4 +31,6 @@ Route::get('new_group', 'groupController@index');
 
 Route::post('createEvent', 'newEventController@store');
 
+Route::post('createGroup','groupController@store');
+
 

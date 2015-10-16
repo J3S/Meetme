@@ -329,7 +329,7 @@
                 <i class="fa fa-group"></i>
                 <span>New Group</span>
               </a>
-            </li>
+              </li>
             </li>
           </ul>
         </section>
